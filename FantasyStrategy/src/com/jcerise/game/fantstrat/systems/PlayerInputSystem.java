@@ -2,23 +2,32 @@ package com.jcerise.game.fantstrat.systems;
 
 import com.artemis.Aspect;
 import com.artemis.Entity;
+import com.artemis.World;
 import com.artemis.systems.EntityProcessingSystem;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector3;
 import com.jcerise.game.fantstrat.components.Player;
-import com.jcerise.game.fantstrat.utils.MapTools;
+import com.jcerise.game.fantstrat.components.Tile;
+import com.jcerise.game.fantstrat.map.GameMap;
+import com.jcerise.game.fantstrat.map.MapTools;
+import com.jcerise.game.fantstrat.utils.FloatPair;
+import com.jcerise.game.fantstrat.utils.Pair;
 
 public class PlayerInputSystem extends EntityProcessingSystem implements InputProcessor {
 
     private OrthographicCamera camera;
     private Vector3 mouseVector;
+    private GameMap gameMap;
+    private World world;
 
     @SuppressWarnings("unchecked")
-    public PlayerInputSystem(OrthographicCamera camera) {
+    public PlayerInputSystem(OrthographicCamera camera, World world, GameMap gameMap) {
         super(Aspect.getAspectForAll(Player.class));
         this.camera=camera;
+        this.world = world;
+        this.gameMap = gameMap;
     }
 
     @Override
@@ -51,12 +60,12 @@ public class PlayerInputSystem extends EntityProcessingSystem implements InputPr
 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-        mouseVector = new Vector3(Gdx.input.getX(),Gdx.input.getY(),0);
-        int x = (int)((mouseVector.x - 6f) / (float) MapTools.colMultiple);
-        int y = (int)((mouseVector.y - (float)MapTools.rowMultiple*(x%2)/2) / (float)MapTools.rowMultiple);
-
-        System.out.println("Click registered at " + x + ", " + y);
-
+        Pair coords = MapTools.window2world(Gdx.input.getX(), Gdx.input.getY(), camera);
+        int entityId = gameMap.getEntityAt(coords.x, coords.y);
+        if (entityId > -1) {
+            Entity e = world.getEntity(entityId);
+            System.out.println(e.getComponent(Tile.class).getName());
+        }
         return false;
     }
 

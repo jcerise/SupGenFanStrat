@@ -2,7 +2,7 @@ package com.jcerise.game.fantstrat.components;
 
 import com.artemis.Component;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.jcerise.game.fantstrat.custom.Animation;
+import com.jcerise.game.fantstrat.utils.Animation;
 
 public class SpriteAnimation extends Component {
 

@@ -11,17 +11,17 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.jcerise.game.fantstrat.components.Position;
+import com.jcerise.game.fantstrat.components.MapPosition;
 import com.jcerise.game.fantstrat.components.Sprite;
 import com.jcerise.game.fantstrat.components.SpriteAnimation;
-import com.jcerise.game.fantstrat.custom.Animation;
+import com.jcerise.game.fantstrat.utils.Animation;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
 public class SpriteRenderSystem extends EntitySystem {
-    @Mapper ComponentMapper<Position> pm;
+    @Mapper ComponentMapper<MapPosition> pm;
     @Mapper ComponentMapper<Sprite> sm;
     @Mapper ComponentMapper<SpriteAnimation> sam;
 
@@ -35,7 +35,7 @@ public class SpriteRenderSystem extends EntitySystem {
 
     @SuppressWarnings("unchecked")
     public SpriteRenderSystem(OrthographicCamera camera) {
-        super(Aspect.getAspectForAll(Position.class, Sprite.class));
+        super(Aspect.getAspectForAll(MapPosition.class, Sprite.class));
         this.camera = camera;
     }
 
@@ -67,7 +67,7 @@ public class SpriteRenderSystem extends EntitySystem {
 
     protected void process(Entity e) {
         if (pm.has(e)) {
-            Position position = pm.getSafe(e);
+            MapPosition position = pm.getSafe(e);
             Sprite sprite = sm.get(e);
 
             TextureRegion spriteRegion = sprite.region;
