@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FantasyStrategy/FantasyStrategy.iml" filepath="$PROJECT_DIR$/FantasyStrategy/FantasyStrategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FantasyStrategy-android/FantasyStrategy-android.iml" filepath="$PROJECT_DIR$/FantasyStrategy-android/FantasyStrategy-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FantasyStrategy-desktop/FantasyStrategy-desktop.iml" filepath="$PROJECT_DIR$/FantasyStrategy-desktop/FantasyStrategy-desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FantasyStrategy-html/FantasyStrategy-html.iml" filepath="$PROJECT_DIR$/FantasyStrategy-html/FantasyStrategy-html.iml" />
+    </modules>
+  </component>
+</project>
+
