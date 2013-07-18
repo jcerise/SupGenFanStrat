@@ -32,7 +32,7 @@ public class DiamondSquare {
         mountainsThreshold = 0.90f;
 
         //N will partially control the size of the map, but mainly controls the level of detail
-        n = 2;
+        n = 3;
 
         //Set the width and height multipliers. These are responsible for separated the individual regions are
         wmult = 6;

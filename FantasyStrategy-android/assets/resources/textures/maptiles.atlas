@@ -31,13 +31,6 @@ hex
   orig: 46, 39
   offset: 0, 0
   index: 3
-hex_4 (1)
-  rotate: false
-  xy: 97, 42
-  size: 46, 39
-  orig: 46, 39
-  offset: 0, 0
-  index: -1
 hex
   rotate: false
   xy: 97, 42

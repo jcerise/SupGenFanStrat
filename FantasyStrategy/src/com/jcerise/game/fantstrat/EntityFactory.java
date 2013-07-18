@@ -49,6 +49,8 @@ public class EntityFactory {
                 name = "Mountains";
                 break;
             case 8:
+                type = "High Mountains";
+                name = "High Mountains";
                 break;
         }
 

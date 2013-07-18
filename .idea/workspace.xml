@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76041cbe-0549-4497-86b0-785738546679" name="Default" comment="" />
+    <list default="true" id="76041cbe-0549-4497-86b0-785738546679" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\jceri_000\Documents\libgdx\SupGenFanStrat\FantasyStrategy-android\assets\textures\maptiles\hex_4 (1).png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java" afterPath="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/EntityFactory.java" afterPath="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/EntityFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FantasyStrategy-android/assets/resources/textures/maptiles.atlas" afterPath="$PROJECT_DIR$/FantasyStrategy-android/assets/resources/textures/maptiles.atlas" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SupGenFanStrat.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="76041cbe-0549-4497-86b0-785738546679" time="1373693421903" ignored="false" />
@@ -13,8 +19,8 @@
     <file path="/FantasyStrategy.java" changelist="76041cbe-0549-4497-86b0-785738546679" time="1374042194665" ignored="false" />
     <file path="/MapTools.java" changelist="76041cbe-0549-4497-86b0-785738546679" time="1374039704305" ignored="false" />
     <file path="/PlayerInputSystem.java" changelist="76041cbe-0549-4497-86b0-785738546679" time="1374043029512" ignored="false" />
-    <file path="/EntityFactory.java" changelist="76041cbe-0549-4497-86b0-785738546679" time="1374042569597" ignored="false" />
-    <file path="/Dummy.txt" changelist="76041cbe-0549-4497-86b0-785738546679" time="1374118726948" ignored="false" />
+    <file path="/EntityFactory.java" changelist="76041cbe-0549-4497-86b0-785738546679" time="1374119878458" ignored="false" />
+    <file path="/Dummy.txt" changelist="76041cbe-0549-4497-86b0-785738546679" time="1374119634590" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tile.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Tile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/components/Tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="38" selection-start="395" selection-end="395" vertical-scroll-proportion="0.38368055">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapRenderSystem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/systems/MapRenderSystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="50" selection-start="2385" selection-end="2385" vertical-scroll-proportion="0.0">
+            <state line="20" column="47" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,19 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityFactory.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="EntityFactory.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/EntityFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="18" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapTools.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/MapTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="54" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0">
+            <state line="53" column="22" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.7465278">
               <folding />
             </state>
           </provider>
@@ -129,21 +117,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HexMapGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/HexMapGenerator.java">
+      <file leaf-file-name="DiamondSquare.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+            <state line="119" column="89" selection-start="3903" selection-end="3903" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiamondSquare.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="44" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="hex_8.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FantasyStrategy-android/assets/textures/maptiles/hex_8.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hex_7.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FantasyStrategy-android/assets/textures/maptiles/hex_7.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hex_6.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FantasyStrategy-android/assets/textures/maptiles/hex_6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -180,13 +180,13 @@
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/components/GameMap.java" />
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/MapTools.java" />
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/components/Tile.java" />
-        <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java" />
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/HexMapGenerator.java" />
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/systems/MapRenderSystem.java" />
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/GameMap.java" />
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/FantasyStrategy.java" />
-        <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/EntityFactory.java" />
         <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/systems/PlayerInputSystem.java" />
+        <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java" />
+        <option value="$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/EntityFactory.java" />
       </list>
     </option>
   </component>
@@ -222,12 +222,77 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SupGenFanStrat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SupGenFanStrat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FantasyStrategy-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SupGenFanStrat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FantasyStrategy-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maptiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SupGenFanStrat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FantasyStrategy-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SupGenFanStrat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FantasyStrategy-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -340,7 +405,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -357,12 +421,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Desktop Launcher">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -377,6 +441,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -404,19 +481,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -550,7 +614,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -634,35 +698,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/components/SpriteAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/components/Expires.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.07798165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/utils/ImagePacker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="224" selection-end="224" vertical-scroll-proportion="0.07798165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FantasyStrategy/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/utils/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="13" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/components/MapPosition.java">
@@ -700,23 +738,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="44" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/FantasyStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="68" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/EntityFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -737,7 +761,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/components/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="395" selection-end="395" vertical-scroll-proportion="0.38368055">
+        <state line="20" column="47" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FantasyStrategy-android/assets/textures/maptiles/hex_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FantasyStrategy-android/assets/textures/maptiles/hex_7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FantasyStrategy-android/assets/textures/maptiles/hex_6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FantasyStrategy-android/assets/textures/maptiles/hex_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/map/DiamondSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="89" selection-start="3903" selection-end="3903" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FantasyStrategy/src/com/jcerise/game/fantstrat/EntityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.7465278">
           <folding />
         </state>
       </provider>
